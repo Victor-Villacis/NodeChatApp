@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chatrooms</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="stylesheets/style.css">
+  
+  </head>
+  <body>
+    <div id="content">
+        <div id="room"></div>
+        <div id="room-list"></div>
+        <div id="messages"></div>
+    <form id="send-form">
+      <input type="text" id='send-massage' />
+      <input type="button"id='send-button' type="submit" value="Send" />
+      
+      <div id="help">
+        Chat commands:
+        <ul>
+          <li>Change nickname: <code>/nick {username}</code></li>
+          <li>Join/Create room: <code>/join {room name}</code></li>
+        </ul>
+      </div>
+    </form>
+    </div>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.2/socket.io.jstype=" "text/javascript"></script>
+      <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+      <script src"/javascript/chat.js" type="text/javascript">
+      <script src"/javascript/chat_ui.js" type="text/javascript"></script>
+  </body>
+</html>
