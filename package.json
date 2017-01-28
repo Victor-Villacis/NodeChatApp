@@ -1,0 +1,27 @@
+{
+  "name": "chatrooms",
+  "version": "1.0.0",
+  "description": "A minimal Node.js multi chat room server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victor-Villacis/NodeChatApp.git"
+  },
+  "keywords": [
+    "chatrooms"
+  ],
+  "author": "victor-villacis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Victor-Villacis/NodeChatApp/issues"
+  },
+  "homepage": "https://github.com/Victor-Villacis/NodeChatApp#readme",
+  "dependencies": {
+    "mime": "^1.3.4",
+    "socket.io": "^1.7.2"
+  }
+}
